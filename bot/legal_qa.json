@@ -1,0 +1,134 @@
+{
+  "intents": [
+    {
+      "tag": "appeal_court_decision",
+      "patterns": [
+        "Can I appeal a court decision?",
+        "How do I challenge a court ruling?",
+        "Is it possible to appeal a judgment?"
+      ],
+      "responses": [
+        "Yes, you can appeal a court decision by filing an appeal to a higher court within the required timeframe. The process depends on the jurisdiction and type of case.",
+        "You must file a notice of appeal and present legal grounds for your challenge. Seeking legal advice is recommended to strengthen your case.",
+        "An appeal must be based on legal errors in the trial, not just dissatisfaction with the outcome. You may need transcripts and other court documents to support your appeal."
+      ]
+    },
+    {
+      "tag": "rights_arrested",
+      "patterns": [
+        "What are my rights if I am arrested?",
+        "Do I have to talk to the police if arrested?",
+        "Can I remain silent when arrested?"
+      ],
+      "responses": [
+        "If you are arrested, you have the right to remain silent, the right to an attorney, and the right to be informed of the charges against you. These are commonly known as Miranda rights.",
+        "You are not required to answer police questions without an attorney present. Anything you say can be used against you in court.",
+        "You have the right to make a phone call after arrest, and in some jurisdictions, you may request bail."
+      ]
+    },
+    {
+      "tag": "apply_bail",
+      "patterns": [
+        "How do I apply for bail?",
+        "Can I get out on bail?",
+        "What is the process for bail application?"
+      ],
+      "responses": [
+        "To apply for bail, you or your lawyer must file a bail application with the appropriate court, demonstrating reasons for release and providing necessary guarantees.",
+        "The court may set conditions for bail, such as travel restrictions or reporting to authorities periodically.",
+        "In some cases, bail may be denied if the judge believes you are a flight risk or a danger to society."
+      ]
+    },
+    {
+      "tag": "check_case_status",
+      "patterns": [
+        "How can I check the status of my legal case?",
+        "Where can I track my court case?",
+        "How do I find out about my case progress?"
+      ],
+      "responses": [
+        "You can check your case status online through the court's website or visit the court office with your case ID.",
+        "Contact your lawyer or the clerk of the court handling your case for updates.",
+        "Some jurisdictions have automated phone systems that provide case status updates."
+      ]
+    },
+    {
+      "tag": "file_legal_complaint",
+      "patterns": [
+        "What is the process to file a legal complaint?",
+        "How do I report a legal issue?",
+        "Where can I file a complaint?"
+      ],
+      "responses": [
+        "To file a legal complaint, you need to submit a formal document to the relevant authority or court, detailing the issue and providing supporting evidence.",
+        "Complaints can be filed online or in person, depending on the jurisdiction and nature of the complaint.",
+        "Legal complaints may require a lawyer's assistance to ensure proper documentation and adherence to legal requirements."
+      ]
+    },
+    {
+      "tag": "statute_limitations_contract",
+      "patterns": [
+        "What is the statute of limitations for contract disputes?",
+        "How long do I have to file a contract lawsuit?",
+        "Is there a deadline for contract claims?"
+      ],
+      "responses": [
+        "The statute of limitations for contract disputes varies by jurisdiction, typically ranging from 3 to 10 years. Check local laws for specific details.",
+        "If you miss the deadline, your case may be dismissed unless certain exceptions apply, such as fraud or discovery of new evidence.",
+        "Oral contracts generally have a shorter limitation period than written contracts. Verify the specifics in your jurisdiction."
+      ]
+    },
+    {
+      "tag": "obtain_case_file",
+      "patterns": [
+        "How do I obtain a copy of my legal case file?",
+        "Can I get my court documents?",
+        "Where can I find my case records?"
+      ],
+      "responses": [
+        "You can request a copy of your case file from the court registry or access it online if the court provides digital records.",
+        "Some records may require a formal request or payment of a fee for copies.",
+        "Your attorney can also request case files on your behalf if you are represented."
+      ]
+    },
+    {
+      "tag": "register_company",
+      "patterns": [
+        "What are the steps to register a company legally?",
+        "How do I set up a business legally?",
+        "Where do I register a company?"
+      ],
+      "responses": [
+        "To register a company, you need to submit incorporation documents, obtain necessary licenses, and register with the relevant business authority in your jurisdiction.",
+        "You may need to choose a business structure, such as an LLC, corporation, or sole proprietorship, based on your needs.",
+        "Tax registration and compliance with industry regulations are also essential steps in the process."
+      ]
+    },
+    {
+      "tag": "file_consumer_complaint",
+      "patterns": [
+        "How do I file a consumer complaint against a company?",
+        "Where can I report a business for fraud?",
+        "Can I sue a company for a defective product?"
+      ],
+      "responses": [
+        "You can file a consumer complaint with the relevant consumer protection authority along with supporting documents such as receipts and correspondence.",
+        "Many consumer protection agencies have online portals for filing complaints.",
+        "If the issue is severe, you may consider taking legal action through a small claims court or hiring an attorney."
+      ]
+    },
+    {
+      "tag": "fraud_section_420",
+      "patterns": [
+        "What is the punishment for fraud under section 420?",
+        "What happens if someone commits fraud?",
+        "Is fraud a criminal offense?"
+      ],
+      "responses": [
+        "Fraud under section 420 is punishable by imprisonment for up to 7 years and a fine. Specific penalties vary by jurisdiction.",
+        "Convictions for fraud can result in criminal records, affecting future employment and travel opportunities.",
+        "Legal defenses for fraud charges include lack of intent, mistaken identity, or insufficient evidence. A lawyer can help you build a defense."
+      ]
+    }
+  ]
+}
