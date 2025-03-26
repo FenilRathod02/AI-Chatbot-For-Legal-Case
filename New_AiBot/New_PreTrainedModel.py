@@ -1,3 +1,11 @@
+#pls install this before run this model
+#!pip uninstall -y bitsandbytes && pip install -U bitsandbytes
+#!pip install --upgrade accelerate
+'''import torch
+print("Torch CUDA Available:", torch.cuda.is_available())
+print("Torch Version:", torch.__version__)'''
+#for access this model------ !huggingface-cli login -----run this 
+
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 
